@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="textbox textbox-1 textboxstable" id="textboxjs1" onmouseenter="decrementMouseEnterHandler()" onmouseleave="decrementMouseLeaveHandler()"> < Prev </div>
+        <div class="textbox textbox-2 textboxmoving" id="textboxjs2" onclick="increase(textboxEl2)"> 1 </div>
+        <div class="textbox textbox-3 textboxmoving" id="textboxjs3" onclick="increase(textboxEl3)"> 2 </div>
+        <div class="textbox textbox-4 textboxmoving" id="textboxjs4" onclick="increase(textboxEl4)"> 3 </div>
+        <div class="textbox textbox-5 textboxmoving" id="textboxjs5" onclick="increase(textboxEl5)"> 4 </div>
+        <div class="textbox textbox-6 textboxmoving" id="textboxjs6" onclick="increase(textboxEl6)"> 5 </div>
+        <div class="textbox textbox-7 textboxstable" id="textboxjs7" onmouseenter="incrementMouseEnterHandler()" onmouseleave="incrementMouseLeaveHandler()"> Next > </div>
+        <div class="codinghubwrapper">
+            <div class="coding">Coding</div>
+            <div class="hub"> Hub</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
